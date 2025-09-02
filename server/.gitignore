@@ -1,2 +1,31 @@
-node_modules
+# Node dependencies
+node_modules/
+
+# Environment files
 .env
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: build/output directories
+dist/
+build/
+coverage/
+
+# Optional: IDE/editor settings
+.vscode/
+.idea/
+*.swp
